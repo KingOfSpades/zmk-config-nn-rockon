@@ -45,7 +45,7 @@
     &kp GRAVE  &kp Q       &kp W       &kp E       &kp R         &kp T        &trans               &trans          &kp Y          &kp U         &kp I         &kp O       &kp P       &kp BSLH
     &kp LGUI   &kp A       &kp S       &kp D       &kp F         &kp G        &trans               &trans          &kp H          &kp J         &kp K         &kp L       &kp SEMI    &kp SQT
     &mt LSHIFT LPAR &kp Z  &kp X       &kp C       &kp V         &kp B        &trans               &trans          &kp N          &kp M         &kp COMMA     &kp DOT     &kp FSLH    &mt RSHIFT RPAR
-               &mt LCTL ESC   &kp LALT    &mo LWR       &kp LGUI     &mt LS(LALT) SPACE   &kp BSPC    &kp TAB        &mo RAS       &kp RET       &trans
+               &mt LCTL ESC   &kp LALT    &mo LWR       &kp LGUI     &mt LS(LALT) SPACE   &kp meh    &kp TAB        &mo RAS       &kp RET       &trans
             >;
         };
 
