@@ -60,7 +60,7 @@
     &trans     &trans       &trans       &trans      &trans        &trans      &trans                       &trans     &kp N6        &kp N7       &kp N8        &kp N9      &kp N0      &kp MINUS
     &trans     &trans       &trans       &trans      &trans        &trans      &trans                       &trans     &kp LEFT      &kp DOWN     &kp UP        &kp RIGHT   &kp PLUS    &trans
     &trans     &trans       &trans       &trans      &trans        &trans      &trans                       &trans     &kp LBKT      &kp RBKT     &trans        &trans      &trans      &trans
-                            &trans       &trans      &trans        &trans      &trans                       &kp ENTER  &trans        &trans       &trans        &trans
+                            &trans       &trans      &trans        &trans      &trans                       &trans     &kp ENTER     &trans       &trans        &trans
             >;
         };
 
@@ -72,7 +72,7 @@
     &kp EQUAL  &kp N1       &kp N2       &kp N3          &kp N4    &kp N5    &trans                         &trans         &trans        &trans            &trans        &trans      &trans      &trans
     &trans     &trans       &trans       &trans          &trans    &trans    &trans                         &trans         &trans        &trans            &trans        &trans      &trans      &trans
     &trans     &trans       &trans       &trans          &trans    &trans    &trans                         &trans         &trans        &trans            &trans        &trans      &trans      &trans
-                            &trans       &trans          &trans    &trans    &kp ESC                        &trans         &trans        &trans            &trans        &trans
+                            &trans       &trans          &trans    &kp ESC   &trans                         &trans         &trans        &trans            &trans        &trans
             >;
         };
 
