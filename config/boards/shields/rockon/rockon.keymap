@@ -35,6 +35,12 @@
 };
 
 / {
+
+    sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&encoder_1 &encoder_2>;
+    };
+
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
@@ -68,6 +74,8 @@
     keymap {
         compatible = "zmk,keymap";
 
+        sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP &inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
+
         default_layer {
             label = "Default";
             bindings = <
@@ -77,7 +85,6 @@
     &mt LSHIFT LPAR &kp Z  &kp X       &kp C       &kp V         &kp B        &mt LA(SPACE) LG(SPACE)       &kp LA(LG(SPACE)) &kp N        &kp M         &kp COMMA     &kp DOT     &kp FSLH    &mt RSHIFT RPAR
                            &trans      &trans      &mo LWR       &kp LCMD     &am LS(LALT) SPACE            &am LS(RC(LALT)) BSPC          &kp TAB       &mo RAS       &trans      &trans
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         nav_layer {
