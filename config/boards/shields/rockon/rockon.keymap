@@ -36,11 +36,6 @@
 
 / {
 
-    sensors {
-        compatible = "zmk,keymap-sensors";
-        sensors = <&encoder_1 &encoder_2>;
-    };
-
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
@@ -73,8 +68,6 @@
 
     keymap {
         compatible = "zmk,keymap";
-
-        sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP &inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
 
         default_layer {
             label = "Default";
