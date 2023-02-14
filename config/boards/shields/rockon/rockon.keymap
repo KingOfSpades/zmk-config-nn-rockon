@@ -107,7 +107,7 @@
             label = "Raise";
 
             bindings = <
-    &trans     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2    &trans    &trans    &bt BT_CLR                     &trans         &trans        &trans            &trans        &trans      &trans      &trans
+    &trans     &trans       &trans       &trans          &trans    &trans    &trans                         &trans         &trans        &trans            &trans        &trans      &trans      &trans
     &kp EQUAL  &kp N1       &kp N2       &kp N3          &kp N4    &kp N5    &trans                         &trans         &trans        &trans            &trans        &trans      &trans      &kp C_VOL_UP
     &trans     &trans       &trans       &trans          &trans    &trans    &trans                         &trans         &trans        &trans            &trans        &trans      &trans      &kp C_VOL_DN
     &trans     &trans       &trans       &trans          &kp LBRC  &kp RBRC  &kp LS(LG(LBRC))               &trans         &trans        &trans            &trans        &trans      &trans      &kp C_MUTE
@@ -119,7 +119,7 @@
             label = "Function";
 
             bindings = <
-    &trans     &trans       &trans        &trans       &trans        &trans        &trans                   &trans     &trans           &trans       &trans        &trans      &trans      &trans
+    &trans     &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2 &bt BT_SEL 3  &bt BT_CLR    &trans                   &trans     &trans           &trans       &trans        &trans      &trans      &trans
     &trans     &trans       &kp LS(PG_UP) &kp LS(UP)   &kp LS(PG_DN) &trans        &trans                   &trans     &kp C_PLAY_PAUSE &kp F7       &kp F8        &kp F9      &kp F10     &trans
     &trans     &kp LS(HOME) &kp LS(LEFT)  &kp LS(DOWN) &kp LS(RIGHT) &kp LS(END)   &trans                   &trans     &kp K_VOL_UP     &kp F4       &kp F5        &kp F6      &kp F11     &trans
     &trans     &trans       &trans        &trans       &trans        &kp C_MUTE    &trans                   &trans     &kp K_VOL_DN     &kp F1       &kp F2        &kp F3      &kp F12     &trans
