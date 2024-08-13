@@ -94,7 +94,7 @@
             bindings = <
 &kp EQUAL        &kp N1       &kp N2      &kp N3      &kp N4      &kp N5    &trans                                                   &trans                 &kp N6  &kp N7      &kp N8       &kp N9      &kp N0          &kp MINUS
 &kp GRAVE        &kp Q        &kp W       &kp E       &kp R       &kp T     &trans                                                   &trans                 &kp Y   &kp U       &kp I        &kp O       &kp P           &kp BSLH
-&kp ESC          &hs LWR A    &hm LALT S  &hm LCTL D  &hm LGUI F  &kp G     &trans                                                   &trans                 &kp H   &hm RCMD J  &hm RCTRL K  &hm RALT L  &hs RAS SEMI    &kp SQT
+&kp ESC          &hm LWR A    &hm LALT S  &hm LCTL D  &hm LGUI F  &kp G     &trans                                                   &trans                 &kp H   &hm RCMD J  &hm RCTRL K  &hm RALT L  &hm RAS SEMI    &kp SQT
 &mt LSHIFT LPAR  &kp Z        &kp X       &kp C       &kp V       &kp B     &mt LA(SPACE) LG(SPACE)                                  &mt LA(LG(SPACE)) F12  &kp N   &kp M       &kp COMMA    &kp DOT     &kp FSLH        &mt RSHIFT RPAR
                               &trans      &trans      &mo trans   &kp LCMD  &am LS(LALT) SPACE       &am LS(RC(LALT)) BSPC  &kp TAB  &trans                 &trans  &trans
             >;
