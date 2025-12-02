@@ -125,7 +125,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans            &trans             &trans          &trans           &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &kp LEFT          &kp DOWN           &kp UP          &kp RIGHT        &none   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &kp LEFT          &kp DOWN           &kp UP          &kp RIGHT        &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                  &none   &none             &none              &trans          &trans           &trans  &trans
                 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans
             >;
@@ -137,7 +137,7 @@
 &trans  &trans  &trans    &trans         &trans       &trans   &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans    &trans         &trans       &trans   &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_VOL_UP
 &trans  &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_VOL_DN
-&trans  &trans  &trans    &trans         &none        &none    &none                   &trans  &trans  &trans  &trans  &trans  &trans  &kp C_MUTE
+&trans  &trans  &trans    &trans         &trans       &trans   &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_MUTE
                 &trans    &trans         &trans       &trans   &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
