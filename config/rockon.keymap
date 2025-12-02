@@ -42,22 +42,22 @@
 
         GUI_space {
             bindings = <&kp LG(SPACE)>;
-            key-positions = <33 32>;
+            key-positions = <32 31>;
         };
 
         ALT_Space {
             bindings = <&kp LA(SPACE)>;
-            key-positions = <33 31>;
+            key-positions = <30 32>;
         };
 
         GUI_CTRL_ALT_Space {
             bindings = <&kp LA(LC(SPACE))>;
-            key-positions = <36 37>;
+            key-positions = <37 38>;
         };
 
         GUI_CTRL_ALT_SHIFT_Space {
             bindings = <&kp LA(LC(LS(LG(SPACE))))>;
-            key-positions = <36 38>;
+            key-positions = <39 37>;
         };
     };
 };
