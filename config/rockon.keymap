@@ -34,10 +34,30 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_esc {
+        Enter {
             timeout-ms = <50>;
             key-positions = <60 61>;
             bindings = <&kp ENTER>;
+        };
+
+        GUI_space {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <33 32>;
+        };
+
+        ALT_Space {
+            bindings = <&kp LA(SPACE)>;
+            key-positions = <33 31>;
+        };
+
+        GUI_CTRL_ALT_Space {
+            bindings = <&kp LA(LC(SPACE))>;
+            key-positions = <36 37>;
+        };
+
+        GUI_CTRL_ALT_SHIFT_Space {
+            bindings = <&kp LA(LC(LS(LG(SPACE))))>;
+            key-positions = <36 38>;
         };
     };
 };
